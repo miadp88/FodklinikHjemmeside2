@@ -21,6 +21,12 @@ nav.navbar a.active {
   box-shadow: 0px 10px 13px -15px #000000, -20px 24px 34px 35px rgba(0, 0, 0, 0);
 }
 
+@media only screen and (max-width: 600px) {
+  nav.navbar a.navbar-brand {
+    display: none;
+  }
+}
+
 nav.navbar .searchBox {
   font-size: 30px;
   border: none;
@@ -40,6 +46,12 @@ nav.navbar .searchBox {
   text-align: center;
   font-family: 'EB Garamond', serif;
   font-size: 8em;
+}
+
+@media only screen and (max-width: 600px) {
+  .container.caption h1 {
+    font-size: 2rem;
+  }
 }
 
 .container.caption .mdBox {
@@ -70,6 +82,12 @@ nav.navbar .searchBox {
   font-size: 2em;
   margin: auto;
   line-height: 2px;
+}
+
+@media only screen and (max-width: 600px) {
+  .container.Textcon p {
+    font-size: 1em;
+  }
 }
 
 .container.Textcon .TextBox {
