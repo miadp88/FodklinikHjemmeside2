@@ -1,0 +1,32 @@
+@import '../Helpers/mixins';
+@import '../Helpers/vars';
+
+nav.navbar{
+    position: absolute;
+    z-index: 100;
+    width: 100%;
+    margin: 0 0 0 20px;
+    a{
+        font-size: 20px;
+        color: white;
+        text-shadow: 2px 2px 4px #0000005d;
+          &:hover {
+            -webkit-box-shadow: 0px 10px 13px -7px #000000, -20px 24px 34px 35px rgba(0,0,0,0); 
+            box-shadow: 0px 10px 13px -15px #000000, -20px 24px 34px 35px rgba(0,0,0,0);
+          }
+
+          &.active {
+            -webkit-box-shadow: 0px 10px 13px -7px #000000, -20px 24px 34px 35px rgba(0,0,0,0); 
+            box-shadow: 0px 10px 13px -15px #000000, -20px 24px 34px 35px rgba(0,0,0,0);
+          }
+        
+    }
+
+    .searchBox{
+        font-size: 30px;
+        border: none;
+    }
+
+    
+}
+

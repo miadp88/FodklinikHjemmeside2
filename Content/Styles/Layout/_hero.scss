@@ -1,0 +1,74 @@
+/// <reference path="./Helpers/_mixins" />
+/// <reference path="./Helpers/_vars" />
+
+.container.caption{
+        background-color: rgba(255, 255, 255, 0.548);
+        width: 100vw;
+        padding: 0;
+        margin: 10% 40%;
+        box-shadow: 5px 5px 5px rgba(68, 68, 68, 0.6);
+        h1{
+                color: grey;
+                text-align: center;
+                font-family: 'EB Garamond', serif;
+                font-size: 8em;}
+                
+
+
+        .mdBox{
+                min-width: 100%;
+                padding: 0;
+        }
+
+     
+
+}
+
+        .container.Textcon{
+                background-color: transparent;
+                width: 100vw;
+                padding: 0;
+                margin-top: 0;
+                .headerTexth1{
+                        color: rgb(255, 255, 255);
+                        text-align: center;
+                        font-family:Arial, Helvetica, sans-serif;
+                        font-size: 6rem;
+                        padding: 20px 0;
+                        
+                        
+                }
+
+                p{
+                text-align: center; 
+                font-family: 'Roboto', sans-serif;
+                color: grey;  
+                width: 90%; 
+                font-size: 2em;
+                margin: auto;
+                line-height: 2px;
+                }
+
+               
+
+                .TextBox{
+                        min-width: 100%;
+                        padding: 10px 0;
+
+                }}
+
+                .headerimg{
+                        padding: 0;
+                }
+
+               
+
+                
+                
+                .container{
+                        margin: 0;
+                }
+
+               
+        
+
