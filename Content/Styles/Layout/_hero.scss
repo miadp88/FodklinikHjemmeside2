@@ -5,8 +5,10 @@
         background-color: rgba(255, 255, 255, 0.548);
         width: 100vw;
         padding: 0;
-        margin: 10% 40%;
         box-shadow: 5px 5px 5px rgba(68, 68, 68, 0.6);
+        @media only screen and (max-width:780px) {
+                margin:0;
+        }
         h1{
                 color: grey;
                 text-align: center;
@@ -15,6 +17,9 @@
                 @media only screen and (max-width: 600px) {
                         font-size: 2rem;
                     }
+        }
+        p{
+                text-align: center;
         }
                 
 
@@ -28,57 +33,5 @@
 
 }
 
-        .container.Textcon{
-                background-color: transparent;
-                width: 100vw;
-                padding: 0;
-                margin-top: 0;
-                .headerTexth1{
-                        color: rgb(255, 255, 255);
-                        text-align: center;
-                        font-family:Arial, Helvetica, sans-serif;
-                        font-size: 6rem;
-                        padding: 20px 0;
-                        
-                        
-                }
 
-                
-
-                p{
-                text-align: center; 
-                font-family: 'Roboto', sans-serif;
-                color: grey;  
-                width: 90%; 
-                font-size: 2em;
-                margin: auto;
-                line-height: 2px;
-                @media only screen and (max-width: 600px) {
-                        font-size: 1em;
-                    }
-                
-                }
-
-               
-
-                .TextBox{
-                        min-width: 100%;
-                        padding: 10px 0;
-
-                }}
-
-                .headerimg{
-                        padding: 0;
-                }
-
-               
-
-                
-                
-                .container{
-                        margin: 0;
-                }
-
-               
-        
 

@@ -6,7 +6,11 @@ nav.navbar{
     position: absolute;
     z-index: 100;
     width: 100%;
-    margin: 0 0 0 20px;
+    margin: 0;
+    background-color:transparent;
+    @media only screen and (max-width:680px){
+      background-color:transparent;
+    }
     a{
         font-size: 20px;
         color: white;
