@@ -6,12 +6,6 @@ nav.navbar {
   background-color: transparent;
 }
 
-@media only screen and (max-width: 680px) {
-  nav.navbar {
-    background-color: transparent;
-  }
-}
-
 nav.navbar a {
   font-size: 20px;
   color: white;
@@ -81,6 +75,17 @@ nav.navbar .searchBox {
 .container.caption .mdBox {
   min-width: 100%;
   padding: 0;
+}
+
+header .BigLogoMobilediv .stortLogo {
+  display: none;
+}
+
+@media only screen and (max-width: 600px) {
+  header .BigLogoMobilediv .stortLogo {
+    font-size: 1em;
+    display: block;
+  }
 }
 
 button {

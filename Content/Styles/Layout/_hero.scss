@@ -35,9 +35,19 @@
                 padding: 0;
         }
 
+        
+
      
 
 }
-
-
-
+header{
+        .BigLogoMobilediv{
+                .stortLogo{
+                display: none;
+                @media only screen and (max-width: 600px) {
+                        font-size: 1em;
+                        display: block;
+                }         
+        }       
+        }
+}
