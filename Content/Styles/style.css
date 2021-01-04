@@ -54,7 +54,7 @@ nav.navbar .searchBox {
 }
 
 .container.caption h1 {
-  color: grey;
+  color: black;
   text-align: center;
   font-family: 'EB Garamond', serif;
   font-size: 8em;
@@ -62,12 +62,20 @@ nav.navbar .searchBox {
 
 @media only screen and (max-width: 600px) {
   .container.caption h1 {
-    font-size: 2rem;
+    font-size: 3rem;
   }
 }
 
 .container.caption p {
   text-align: center;
+  font-size: 2.7em;
+  color: grey;
+}
+
+@media only screen and (max-width: 600px) {
+  .container.caption p {
+    font-size: 1em;
+  }
 }
 
 .container.caption .mdBox {

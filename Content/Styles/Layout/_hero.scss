@@ -10,16 +10,22 @@
                 margin:0;
         }
         h1{
-                color: grey;
+                color: black;
                 text-align: center;
                 font-family: 'EB Garamond', serif;
                 font-size: 8em;
                 @media only screen and (max-width: 600px) {
-                        font-size: 2rem;
+                        font-size: 3rem;
                     }
         }
         p{
                 text-align: center;
+                font-size: 2.7em;
+                color: grey;
+                @media only screen and (max-width: 600px) {
+                        font-size: 1em;
+                    }
+
         }
                 
 
