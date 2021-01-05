@@ -42,7 +42,8 @@ nav.navbar{
     .searchBox{
         font-size: 30px;
         border: none;
-    }
+        box-shadow: inset 1px 0 10px #d6d5d5,
+            inset -5px -5px 10px #ffffff;}
 
    
 }
