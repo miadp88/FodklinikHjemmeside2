@@ -1,6 +1,11 @@
 @import '../Helpers/mixins';
 @import '../Helpers/vars';
 
+$greenBrightestColor: #CFEDE8;
+$greenBrigtColor: #BAE5DB;
+$greenMediumColor: #6AC3A6;
+$greenDarkColor: #60B88E;
+$greenDarkestColor: #5B8F80;
 
 nav.navbar{
     position: absolute;
@@ -24,6 +29,7 @@ nav.navbar{
           }
 
           &.navbar-brand{
+            box-shadow: none;
             @media only screen and (max-width: 600px) {
               display: none;
           }}
