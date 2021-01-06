@@ -419,6 +419,35 @@ div.card.show div.flap2 {
 
 .insideMain .ProduktSection .textContainer h2, .insideMain .galleriSection .textContainer h2 {
   padding-left: 30px;
+  font-family: 'EB Garamond', serif;
+}
+
+.AboutTxtContainer {
+  background: white;
+  background: -webkit-gradient(linear, left bottom, left top, from(rgba(255, 255, 255, 0)), to(rgba(221, 198, 166, 0.39)));
+  background: linear-gradient(0deg, rgba(255, 255, 255, 0) 0%, rgba(221, 198, 166, 0.39) 100%);
+  margin: auto;
+  padding: 20px;
+  width: 90%;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.AboutTxtContainer img {
+  width: 20%;
+  margin: 50px 50px 50px 80px;
+  float: left;
+}
+
+.AboutTxtContainer h2 {
+  font-family: 'EB Garamond', serif;
+  font-size: 4rem;
+  color: #6AC3A6;
+}
+
+.AboutTxtContainer p {
+  font-size: 1.5em;
+  padding: 0 100px 100px 100px;
 }
 
 a {

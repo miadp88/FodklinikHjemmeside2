@@ -211,13 +211,37 @@ div.card.show {
     }
     h2{
       padding-left: 30px;
+      font-family: 'EB Garamond', serif;
     }
   }
 }
 }
 
-.galleriSection{
-  
+.AboutTxtContainer{
+  background: rgb(255,255,255);
+    background: linear-gradient(0deg, rgba(255,255,255,0) 0%, rgba(221,198,166,0.39) 100%);
+    margin: auto;
+    padding: 20px;
+    width: 90%;
+    text-align: justify;
+  text-justify: inter-word;
+  img{
+    width: 20%;
+    margin: 50px 50px 50px 80px;
+    float: left;
+  }
+
+  h2{
+    font-family: 'EB Garamond', serif;
+    font-size: 4rem;
+    color: $greenMediumColor;
+  }
+  p{
+    font-size: 1.5em;
+    padding: 0 100px 100px 100px;
+  }
+
+
 }
 
 
