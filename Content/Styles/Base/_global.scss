@@ -1,3 +1,30 @@
 /// <reference path="./Helpers/_mixins" />
 /// <reference path="./Helpers/_vars" />
 
+$greenBrightestColor: #CFEDE8;
+$greenBrigtColor: #BAE5DB;
+$greenMediumColor: #6AC3A6;
+$greenDarkColor: #60B88E;
+$greenDarkestColor: #5B8F80;
+$salmonColor: #E3D2B8;
+
+
+main{
+    background-image: url(/FodklinikHjemmeside2/Content/Media/fodderbg1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    .insideMain{
+        width: 90%;
+        margin: auto;
+    }
+
+    .afsnitOpd{
+        text-align: center;
+        border-top: 4px $greenBrigtColor solid;
+        border-bottom: 4px $greenBrigtColor solid;
+        background-color: rgba(255, 255, 255, 0.432);
+        color: $salmonColor;
+    }
+
+}
