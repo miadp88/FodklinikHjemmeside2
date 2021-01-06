@@ -201,12 +201,16 @@ div.card.show {
   padding: 20px;
   .imageContainer{
     width: 20%;
-    margin-left: 20px;
+    margin-left: 100px;
   }
   .textContainer{
-    margin-left: 30px;
+    margin-left: 200px;
     p{
       margin-top: 30px;
+      padding: 30px;
+    }
+    h2{
+      padding-left: 30px;
     }
   }
 }
