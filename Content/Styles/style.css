@@ -395,7 +395,7 @@ div.card.show div.flap2 {
   transition: all 0.3s 0.2s ease-out;
 }
 
-.insideMain .ProduktSection, .insideMain .galleriSection {
+.insideMain .ProduktSection, .insideMain .galleriSection, .insideMain .contactSection {
   background: white;
   background: -webkit-gradient(linear, left top, right top, from(rgba(255, 255, 255, 0)), to(rgba(221, 198, 166, 0.39)));
   background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(221, 198, 166, 0.39) 100%);
@@ -403,21 +403,21 @@ div.card.show div.flap2 {
   padding: 20px;
 }
 
-.insideMain .ProduktSection .imageContainer, .insideMain .galleriSection .imageContainer {
+.insideMain .ProduktSection .imageContainer, .insideMain .galleriSection .imageContainer, .insideMain .contactSection .imageContainer {
   width: 20%;
   margin-left: 100px;
 }
 
-.insideMain .ProduktSection .textContainer, .insideMain .galleriSection .textContainer {
+.insideMain .ProduktSection .textContainer, .insideMain .galleriSection .textContainer, .insideMain .contactSection .textContainer {
   margin-left: 200px;
 }
 
-.insideMain .ProduktSection .textContainer p, .insideMain .galleriSection .textContainer p {
+.insideMain .ProduktSection .textContainer p, .insideMain .galleriSection .textContainer p, .insideMain .contactSection .textContainer p {
   margin-top: 30px;
   padding: 30px;
 }
 
-.insideMain .ProduktSection .textContainer h2, .insideMain .galleriSection .textContainer h2 {
+.insideMain .ProduktSection .textContainer h2, .insideMain .galleriSection .textContainer h2, .insideMain .contactSection .textContainer h2 {
   padding-left: 30px;
   font-family: 'EB Garamond', serif;
 }
@@ -714,5 +714,80 @@ img.hover-shadow {
 .hover-shadow:hover {
   -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
           box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.contact {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.contact i {
+  padding: 0 20px;
+  font-size: 0.8em;
+}
+
+.contact h2 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 2.5em;
+  border: 1px solid #555;
+  background-color: rgba(0, 0, 0, 0.7);
+  padding-top: 20px;
+  height: 75px;
+  color: #fff;
+  font-weight: 500;
+  line-height: 40px;
+  padding-left: 50px;
+  text-align: center;
+}
+
+#contactform .right {
+  float: right;
+}
+
+#contactform input {
+  margin-bottom: 14px;
+  width: 100%;
+  outline: none;
+  border: none;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 11px;
+  padding-left: 15px;
+  height: 44px;
+  border-radius: 0;
+}
+
+#contactform textarea {
+  margin-bottom: 14px;
+  width: 100%;
+  outline: none;
+  border: none;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 11px;
+  padding: 15px;
+  height: 218px;
+  border-radius: 0;
+}
+
+#contactform .btn {
+  width: 100%;
+  height: 50px;
+  border-radius: 0;
+  border: 1px solid #333;
+  background: rgba(0, 0, 0, 0.7);
+  color: #fff;
+}
+
+#contactform .btn:hover {
+  background: rgba(51, 51, 51, 0.7);
+}
+
+#map-canvas {
+  width: 100%;
+  height: 135px;
+  margin-bottom: 15px;
+  border: 2px solid #fff;
 }
 /*# sourceMappingURL=style.css.map */
