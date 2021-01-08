@@ -227,6 +227,8 @@ a.btn:active {
 
 div.cards {
   text-align: center;
+  position: relative;
+  z-index: 5;
 }
 
 div.card {
@@ -242,6 +244,10 @@ div.card {
   transition: all 0.3s 0s ease-in;
   width: 300px;
   z-index: 1;
+}
+
+div.card.show .card-flap .card-description {
+  opacity: 1;
 }
 
 div.card img {
@@ -313,6 +319,7 @@ div.card div.card-description {
   padding: 0 15px 10px;
   position: relative;
   font-size: 14px;
+  opacity: 0;
 }
 
 div.card div.card-actions {
@@ -401,15 +408,6 @@ div.card.show div.flap2 {
   background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(221, 198, 166, 0.39) 100%);
   margin: 30px;
   padding: 20px;
-}
-
-.insideMain .ProduktSection .imageContainer, .insideMain .galleriSection .imageContainer, .insideMain .contactSection .imageContainer {
-  width: 20%;
-  margin-left: 100px;
-}
-
-.insideMain .ProduktSection .textContainer, .insideMain .galleriSection .textContainer, .insideMain .contactSection .textContainer {
-  margin-left: 200px;
 }
 
 .insideMain .ProduktSection .textContainer p, .insideMain .galleriSection .textContainer p, .insideMain .contactSection .textContainer p {
@@ -595,13 +593,6 @@ main .afsnitOpd {
   clear: both;
 }
 
-/* Create four equal columns that floats next to eachother */
-.column {
-  float: left;
-  width: 25%;
-}
-
-/* The Modal (background) */
 .modal {
   display: none;
   position: fixed;
@@ -615,7 +606,6 @@ main .afsnitOpd {
   background-color: black;
 }
 
-/* Modal Content */
 .modal-content {
   position: relative;
   background-color: #fefefe;
@@ -625,7 +615,6 @@ main .afsnitOpd {
   max-width: 1200px;
 }
 
-/* The Close Button */
 .close {
   color: white;
   position: absolute;
@@ -642,12 +631,10 @@ main .afsnitOpd {
   cursor: pointer;
 }
 
-/* Hide the slides by default */
 .mySlides {
   display: none;
 }
 
-/* Next & previous buttons */
 .prev,
 .next {
   cursor: pointer;
@@ -668,19 +655,16 @@ main .afsnitOpd {
   -webkit-user-select: none;
 }
 
-/* Position the "next button" to the right */
 .next {
   right: 0;
   border-radius: 3px 0 0 3px;
 }
 
-/* On hover, add a black background color with a little bit see-through */
 .prev:hover,
 .next:hover {
   background-color: rgba(0, 0, 0, 0.8);
 }
 
-/* Number text (1/3 etc) */
 .numbertext {
   color: #f2f2f2;
   font-size: 12px;
@@ -689,7 +673,6 @@ main .afsnitOpd {
   top: 0;
 }
 
-/* Caption text */
 .caption-container {
   text-align: center;
   background-color: black;
@@ -722,6 +705,8 @@ img.hover-shadow {
 
 .column img {
   max-width: 100%;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .contact {

@@ -13,16 +13,16 @@ $(document).ready(function(){
     }
 
     if ($("div.cards").hasClass("showing")) {
-      // a card is already in view
+    
       $("div.card.show")
         .removeClass("show");
 
       if (isShowing) {
-        // this card was showing - reset the grid
+    
         $("div.cards")
           .removeClass("showing");
       } else {
-        // this card isn't showing - get in with it
+        
         $(this)
           .css({zIndex: zindex})
           .addClass("show");
@@ -47,12 +47,12 @@ $(document).ready(function(){
 
 //lightBox
 
-// Open the Modal
+
 function openModal() {
   document.getElementById("myModal").style.display = "block";
 }
 
-// Close the Modal
+
 function closeModal() {
   document.getElementById("myModal").style.display = "none";
 }
@@ -60,12 +60,12 @@ function closeModal() {
 var slideIndex = 1;
 showSlides(slideIndex);
 
-// Next/previous controls
+
 function plusSlides(n) {
   showSlides(slideIndex += n);
 }
 
-// Thumbnail image controls
+
 function currentSlide(n) {
   showSlides(slideIndex = n);
 }
