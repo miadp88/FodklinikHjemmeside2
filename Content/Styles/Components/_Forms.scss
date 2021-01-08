@@ -1,8 +1,17 @@
 @import '../Helpers/mixins';
 @import '../Helpers/vars';
 
-$btnBackground: rgba(0, 0, 0, 0.7);
+$greenBrightestColor: #CFEDE8;
+$greenBrigtColor: #BAE5DB;
+$greenMediumColor: #6AC3A6;
+$greenDarkColor: #60B88E;
+$greenDarkestColor: #5B8F80;
 
+
+body{
+
+    background-color: red;
+}
   .contact {
     align-self: center;
     i {
@@ -55,7 +64,7 @@ $btnBackground: rgba(0, 0, 0, 0.7);
       width: 100%;
       height: 50px;
       border-radius: 0;
-      border: 1px solid #333;
+      border: 1px solid $greenBrigtColor;
       background: $btnBackground;
       color: #fff;
       &:hover {
@@ -71,6 +80,4 @@ $btnBackground: rgba(0, 0, 0, 0.7);
   }
 
 
-  .contactSection{
-      
-  }
+ 
