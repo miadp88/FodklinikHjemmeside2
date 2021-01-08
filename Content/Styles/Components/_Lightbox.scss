@@ -25,11 +25,12 @@
 
   .modal-content {
     position: relative;
-    background-color: #fefefe;
+    background-color: #000000;
     margin: auto;
     padding: 0;
     width: 90%;
     max-width: 1200px;
+    display: inline;
   }
 
   .close {
@@ -129,4 +130,9 @@
       margin-top: 10px;
       margin-bottom: 10px;
     }
+  }
+
+  .column {
+    float: left;
+    width: 24.95%;
   }
