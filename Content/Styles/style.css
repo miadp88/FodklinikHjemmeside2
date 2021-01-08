@@ -460,12 +460,12 @@ a:hover {
 }
 
 ::-moz-selection {
-  background: #fec503;
+  background: #6AC3A6;
   text-shadow: none;
 }
 
 ::selection {
-  background: #fec503;
+  background: #6AC3A6;
   text-shadow: none;
 }
 
@@ -716,6 +716,14 @@ img.hover-shadow {
           box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
+.mySlides img {
+  width: 100%;
+}
+
+.column img {
+  max-width: 100%;
+}
+
 .contact {
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
@@ -775,13 +783,13 @@ img.hover-shadow {
   width: 100%;
   height: 50px;
   border-radius: 0;
-  border: 1px solid #333;
-  background: rgba(0, 0, 0, 0.7);
+  border: 1px solid #BAE5DB;
+  background: #6AC3A6;
   color: #fff;
 }
 
 #contactform .btn:hover {
-  background: rgba(51, 51, 51, 0.7);
+  background: #b3e0d1;
 }
 
 #map-canvas {

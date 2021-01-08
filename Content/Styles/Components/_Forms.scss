@@ -8,10 +8,6 @@ $greenDarkColor: #60B88E;
 $greenDarkestColor: #5B8F80;
 
 
-body{
-
-    background-color: red;
-}
   .contact {
     align-self: center;
     i {
@@ -65,10 +61,10 @@ body{
       height: 50px;
       border-radius: 0;
       border: 1px solid $greenBrigtColor;
-      background: $btnBackground;
+      background: $greenMediumColor;
       color: #fff;
       &:hover {
-        background: lighten($btnBackground, 20%);
+        background: lighten($greenMediumColor, 20%);
       }
     }
   }
