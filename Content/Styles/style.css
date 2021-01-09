@@ -418,18 +418,26 @@ div.card.show div.flap2 {
   transition: all 0.3s 0.2s ease-out;
 }
 
+.insideMain {
+  margin: auto;
+}
+
 .insideMain .ProduktSection, .insideMain .galleriSection, .insideMain .contactSection {
   background: white;
   background: -webkit-gradient(linear, left top, right top, from(rgba(255, 255, 255, 0)), to(rgba(221, 198, 166, 0.39)));
   background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(221, 198, 166, 0.39) 100%);
   margin: 30px;
   padding: 20px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 @media only screen and (max-width: 900px) {
   .insideMain .ProduktSection, .insideMain .galleriSection, .insideMain .contactSection {
     background: -webkit-gradient(linear, left bottom, left top, from(rgba(255, 255, 255, 0)), to(rgba(221, 198, 166, 0.39)));
     background: linear-gradient(0deg, rgba(255, 255, 255, 0) 0%, rgba(221, 198, 166, 0.39) 100%);
+    margin: auto;
   }
 }
 
