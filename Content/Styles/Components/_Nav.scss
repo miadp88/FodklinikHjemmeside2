@@ -37,8 +37,13 @@ nav.navbar{
           }
 
         
-            .formContainer{
+            .form{
+              float: none !important;
               margin: auto;
+             
+              
+              
+
           }
 
           
@@ -62,7 +67,8 @@ nav.navbar{
           &.navbar-brand{
             box-shadow: none;
             @media only screen and (max-width: 600px) {
-              display: none;
+             margin: none;
+             float: left;
           }}
 
           @media only screen and (max-width: 992px){

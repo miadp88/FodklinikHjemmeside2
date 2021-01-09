@@ -46,19 +46,6 @@
      
 
 }
-header{
-        .BigLogoMobilediv{
-                .stortLogo{
-                display: none;
-                @media only screen and (max-width: 300px) {
-                        width: 110px;
-                } 
-                @media only screen and (max-width: 600px) {
-                        font-size: 1em;
-                        display: block;
-                }         
-        }       
-        }
-}
+
 
 

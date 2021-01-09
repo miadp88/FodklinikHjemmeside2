@@ -23,7 +23,8 @@ nav.navbar {
     margin: auto;
     margin-top: 10px;
   }
-  nav.navbar .formContainer {
+  nav.navbar .form {
+    float: none !important;
     margin: auto;
   }
 }
@@ -51,7 +52,8 @@ nav.navbar a.navbar-brand {
 
 @media only screen and (max-width: 600px) {
   nav.navbar a.navbar-brand {
-    display: none;
+    margin: none;
+    float: left;
   }
 }
 
@@ -125,23 +127,6 @@ nav.navbar .searchBox {
 .container.caption .mdBox {
   min-width: 100%;
   padding: 0;
-}
-
-header .BigLogoMobilediv .stortLogo {
-  display: none;
-}
-
-@media only screen and (max-width: 300px) {
-  header .BigLogoMobilediv .stortLogo {
-    width: 110px;
-  }
-}
-
-@media only screen and (max-width: 600px) {
-  header .BigLogoMobilediv .stortLogo {
-    font-size: 1em;
-    display: block;
-  }
 }
 
 button {
