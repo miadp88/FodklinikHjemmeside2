@@ -460,23 +460,31 @@ div.card.show div.flap2 {
   background: linear-gradient(0deg, rgba(255, 255, 255, 0) 0%, rgba(221, 198, 166, 0.39) 100%);
   text-align: justify;
   text-justify: inter-word;
+  padding-top: 50px;
 }
 
 .AboutTxtContainer img {
   width: 20%;
-  margin: 50px 50px 50px 80px;
+  margin: auto;
   float: left;
+}
+
+@media only screen and (max-width: 765px) {
+  .AboutTxtContainer img {
+    display: none;
+  }
 }
 
 .AboutTxtContainer h2 {
   font-family: 'EB Garamond', serif;
   font-size: 4rem;
   color: #6AC3A6;
-  text-align: center;
+  text-align: left;
 }
 
 .AboutTxtContainer p {
   font-size: 1.5em;
+  padding: 10px;
 }
 
 a {
