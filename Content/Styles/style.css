@@ -312,7 +312,7 @@ div.card div.card-title a.toggle-info span.left {
 }
 
 div.card div.card-title a.toggle-info span.right {
-  left: 14px;
+  left: 12px;
   -webkit-transform: rotate(-45deg);
           transform: rotate(-45deg);
 }
