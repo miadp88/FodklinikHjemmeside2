@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,700|Droid+Serif:400,700,400italic,700italic|Droid+Sans:400,700");
 nav.navbar {
   position: absolute;
   z-index: 100;
@@ -73,7 +74,7 @@ nav.navbar .searchBox {
           box-shadow: inset 1px 0 10px #d6d5d5, inset -5px -5px 10px #ffffff;
 }
 
-.container.caption {
+.container.caption, .caption2 {
   background-color: rgba(255, 255, 255, 0.548);
   width: 100vw;
   padding: 0;
@@ -82,12 +83,12 @@ nav.navbar .searchBox {
 }
 
 @media only screen and (max-width: 780px) {
-  .container.caption {
+  .container.caption, .caption2 {
     margin: 0;
   }
 }
 
-.container.caption h1 {
+.container.caption h1, .caption2 h1 {
   color: black;
   text-align: center;
   font-family: 'EB Garamond', serif;
@@ -95,44 +96,49 @@ nav.navbar .searchBox {
 }
 
 @media only screen and (max-width: 992px) {
-  .container.caption h1 {
+  .container.caption h1, .caption2 h1 {
     font-size: 4rem;
   }
 }
 
 @media only screen and (max-width: 600px) {
-  .container.caption h1 {
+  .container.caption h1, .caption2 h1 {
     font-size: 3rem;
   }
 }
 
-.container.caption p {
+.container.caption p, .caption2 p {
   text-align: center;
   font-size: 2.7em;
   color: grey;
 }
 
 @media only screen and (max-width: 992px) {
-  .container.caption p {
+  .container.caption p, .caption2 p {
     font-size: 1.5rem;
   }
 }
 
 @media only screen and (max-width: 600px) {
-  .container.caption p {
+  .container.caption p, .caption2 p {
     font-size: 1em;
   }
 }
 
-.container.caption .mdBox {
+.container.caption .mdBox, .caption2 .mdBox {
   min-width: 100%;
   padding: 0;
 }
 
 @media only screen and (max-width: 768px) {
-  .container.caption .row {
+  .container.caption .row, .caption2 .row {
     margin: 0;
   }
+}
+
+.container.caption2 {
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 
 button {
@@ -857,59 +863,177 @@ img.hover-shadow {
   border: 2px solid #fff;
 }
 
-/* Add a gray background color with some padding */
-body {
-  font-family: Arial;
-  padding: 20px;
-  background: #f1f1f1;
+h2 {
+  font-size: 2.8rem;
+  line-height: 1.2em;
+  letter-spacing: -1px;
+  text-indent: -2px;
 }
 
-/* Header/Blog Title */
-.header {
-  padding: 30px;
-  font-size: 40px;
-  text-align: center;
+h3 {
+  font-size: 2.4rem;
+}
+
+h4 {
+  font-size: 2.0rem;
+}
+
+blockquote {
+  margin: 1.6em 0 1.6em 0;
+  padding: 0 0 0 1.6em;
+  border-left: #4a4a4a 0.4em solid;
+  margin: 0.8em 0;
+  font-style: italic;
+}
+
+blockquote small {
+  display: inline-block;
+  margin: 0.8em 0 0.8em 1.5em;
+  font-size: 0.9em;
+  color: #ccc;
+}
+
+blockquote small:before {
+  content: '\2014 \00A0';
+}
+
+article p:first-of-type:first-letter {
+  float: left;
+  font-size: 5.8rem;
+  line-height: 5.4rem;
+  margin: 0 6px 0 0;
+}
+
+h4 {
+  font-size: 4rem;
+  margin: 0 auto;
+  padding: 0 10%;
+  color: #ffffff;
+}
+
+article {
+  word-break: break-word;
+  -webkit-hyphens: auto;
+      -ms-hyphens: auto;
+          hyphens: auto;
   background: white;
+  background: -webkit-gradient(linear, left top, right top, from(rgba(255, 255, 255, 0)), to(rgba(221, 198, 166, 0.39)));
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(221, 198, 166, 0.39) 100%);
+  text-align: justify;
+  text-justify: inter-word;
+  padding-top: 50px;
+  border-radius: 4px;
+  margin-top: 30px;
+  margin-left: 30px;
+  margin-right: 30px;
+  -webkit-box-shadow: 0 2px 0px 0 rgba(0, 0, 0, 0.25);
+          box-shadow: 0 2px 0px 0 rgba(0, 0, 0, 0.25);
 }
 
-/* Create two unequal columns that floats next to each other */
-/* Left column */
-.leftcolumn {
-  float: left;
-  width: 75%;
+h2 {
+  font-size: 7.4rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-family: Montserrat, Arial, sans-serif;
+  text-align: center;
+  opacity: 0.95;
+  padding: 0 11.4%;
+  font-style: normal;
+  font-size: 4.2rem;
+  line-height: 4.6rem;
+  padding: 0;
 }
 
-/* Right column */
-.rightcolumn {
-  float: left;
-  width: 25%;
-  padding-left: 20px;
+h2, h2 a {
+  color: #333638;
 }
 
-/* Fake image */
-.fakeimg {
-  background-color: #aaa;
-  width: 100%;
-  padding: 20px;
+.post-end {
+  color: #BBC7CC;
+  margin: 0;
 }
 
-/* Add a card effect for articles */
-.card {
-  background-color: white;
-  padding: 20px;
-  margin-top: 20px;
+.post-end span {
+  float: right;
+  font-style: italic;
 }
 
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
+article img {
+  display: block;
+  max-width: 100%;
+  margin: 0 auto;
 }
 
-@media screen and (max-width: 800px) {
-  .leftcolumn, .rightcolumn {
-    width: 100%;
-    padding: 0;
+article {
+  padding: 8%;
+}
+
+@media only screen and (min-width: 900px) {
+  article {
+    width: 90%;
+    margin: auto;
+    border-radius: 0;
+    border-bottom: 1px dotted #222;
+    margin-top: 30px;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  nav {
+    display: none;
+  }
+  blockquote {
+    margin-left: 0;
+  }
+  p:first-child:first-letter {
+    font-size: 5.2rem;
+    line-height: 5rem;
+    margin: 0 4px 0 0;
+  }
+  article {
+    font-size: 0.9em;
+    line-height: 1.6em;
+    margin-bottom: 30px;
+    padding: 8%;
+  }
+  h2 {
+    font-size: 2.4rem;
+    line-height: 1.1em;
+    letter-spacing: 0;
+  }
+  h3 {
+    font-size: 2.0rem;
+    line-height: 2.2rem;
+  }
+  h4 {
+    font-size: 1.8rem;
+    line-height: 2.0rem;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  article {
+    width: auto;
+    font-size: 0.8em;
+    line-height: 1.6em;
+  }
+  p:first-child:first-letter {
+    font-size: 4.4rem;
+    line-height: 4.6rem;
+    margin: 0 4px 0 0;
+  }
+  h2 {
+    font-size: 2.4rem;
+    line-height: 1.1em;
+    letter-spacing: 0;
+  }
+  h3 {
+    font-size: 2.0rem;
+    line-height: 2.2rem;
+  }
+  h4 {
+    font-size: 1.8rem;
+    line-height: 2.0rem;
   }
 }
 /*# sourceMappingURL=style.css.map */
