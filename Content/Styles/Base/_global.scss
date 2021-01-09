@@ -28,3 +28,10 @@ main{
     }
 
 }
+
+
+
+*, ::after, ::before {
+    box-sizing: border-box;
+    max-width: 100%;
+}
