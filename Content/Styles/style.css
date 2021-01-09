@@ -442,6 +442,13 @@ div.card.show div.flap2 {
   }
 }
 
+@media only screen and (max-width: 768px) {
+  .insideMain .ProduktSection .imageContainer img, .insideMain .galleriSection .imageContainer img, .insideMain .contactSection .imageContainer img {
+    margin: 0 auto 20px auto;
+    display: block;
+  }
+}
+
 .insideMain .ProduktSection .textContainer p, .insideMain .galleriSection .textContainer p, .insideMain .contactSection .textContainer p {
   margin-top: 30px;
   padding: 30px;
@@ -452,6 +459,10 @@ div.card.show div.flap2 {
   padding-left: 30px;
   font-family: 'EB Garamond', serif;
   text-align: center;
+}
+
+.ImgImgVBig {
+  padding: 0;
 }
 
 @media only screen and (min-width: 765px) {
