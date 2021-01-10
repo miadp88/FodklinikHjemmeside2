@@ -1,14 +1,7 @@
 @import '../Helpers/mixins';
 @import '../Helpers/vars';
 
-$greenBrightestColor: #CFEDE8;
-$greenBrigtColor: #BAE5DB;
-$greenMediumColor: #6AC3A6;
-$greenDarkColor: #60B88E;
-$greenDarkestColor: #5B8F80;
-$greenDarkColorTrasp: #60b88ec7;
-$salmonColor: #E3D2B8;
-$salmonColortransp: #e3d2b886;
+
 
 
 
@@ -67,7 +60,7 @@ nav.navbar{
           &.navbar-brand{
             box-shadow: none;
             @media only screen and (max-width: 600px) {
-             margin: none;
+             margin: 0;
              float: left;
           }}
 

@@ -1,15 +1,9 @@
 /// <reference path="./Helpers/_mixins" />
 /// <reference path="./Helpers/_vars" />
 
-$greenBrightestColor: #CFEDE8;
-$greenBrigtColor: #BAE5DB;
-$greenMediumColor: #6AC3A6;
-$greenDarkColor: #60B88E;
-$greenDarkestColor: #5B8F80;
-$salmonColortransp: #e3d2b886;
-$salmonColor: #E3D2B8;
 
-@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700|Droid+Serif:400,700,400italic,700italic|Droid+Sans:400,700');
+
+
 
 
 
@@ -28,7 +22,6 @@ article p:first-of-type:first-letter {
 
 
 article {
-  word-break: break-word;
   hyphens: auto;
   background: rgb(255,255,255);
     background: linear-gradient(90deg, rgba(255,255,255,0) 0%, rgba(221,198,166,0.39) 100%);
