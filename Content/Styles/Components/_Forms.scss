@@ -19,8 +19,11 @@
       color: #fff;
       font-weight: 500;
       line-height: 40px;
-      padding-left: 50px;
       text-align: center;
+      @media only screen and (max-width: 350px) {
+      font-size: 1.5em;
+        
+     }
     }
   }
   #contactform {
