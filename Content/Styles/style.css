@@ -579,8 +579,16 @@ footer {
   text-shadow: 2px 2px 4px #2c4435;
 }
 
+.footer-column .nav-item .nav-link:hover {
+  color: #E3D2B8;
+}
+
 .footer-column .nav-item span.nav-link {
   color: white;
+}
+
+.footer-column .nav-item span.nav-link:hover {
+  color: #E3D2B8;
 }
 
 .footer-column .nav-item span.footer-title {
@@ -616,6 +624,12 @@ ul.social-buttons li a:hover {
   font-size: 3em;
 }
 
+ul.social-buttons li a:active:hover,
+ul.social-buttons li a:focus:hover,
+ul.social-buttons li a:hover:hover {
+  color: #E3D2B8;
+}
+
 ul.social-buttons li a {
   font-size: 20px;
   line-height: 40px;
@@ -635,6 +649,14 @@ footer .quick-links {
   margin-bottom: 0;
   text-transform: none;
   font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+footer .quick-links:hover {
+  color: #E3D2B8;
+}
+
+footer .quick-links .list-inline-item a:hover {
+  color: #E3D2B8;
 }
 
 .copyright {
