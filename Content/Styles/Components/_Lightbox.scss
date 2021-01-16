@@ -3,9 +3,7 @@
 
 
 
-.row > .column {
-    padding: 0 8px;
-  }
+
   
   .row:after {
     content: "";
@@ -136,7 +134,3 @@
     }
   }
 
-  .column {
-    float: left;
-    width: 24.95%;
-  }

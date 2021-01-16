@@ -282,6 +282,17 @@ div.card.show .card-flap .card-description {
   opacity: 1;
 }
 
+@media only screen and (max-width: 789px) {
+  div.card {
+    max-width: unset;
+    width: 100%;
+    margin: 8px 0;
+  }
+  div.card .card__image-holder img {
+    max-width: 100%;
+  }
+}
+
 div.card img {
   max-width: 300px;
 }
@@ -642,7 +653,6 @@ main {
 }
 
 main .insideMain {
-  width: 90%;
   margin: auto;
 }
 
@@ -652,16 +662,6 @@ main .afsnitOpd {
   border-bottom: 4px #BAE5DB solid;
   background-color: rgba(255, 255, 255, 0.432);
   color: #E3D2B8;
-}
-
-*, ::after, ::before {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  max-width: 100%;
-}
-
-.row > .column {
-  padding: 0 8px;
 }
 
 .row:after {
@@ -784,11 +784,6 @@ img.hover-shadow {
   max-width: 100%;
   margin-top: 10px;
   margin-bottom: 10px;
-}
-
-.column {
-  float: left;
-  width: 24.95%;
 }
 
 .contact {
