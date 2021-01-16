@@ -35,7 +35,9 @@
     height: 75px;
     text-decoration: none;
     text-shadow: none;
-  
+    &:hover{
+      color: black;
+    }
     
       @media only screen and (max-width:767px) {
         right: 0;

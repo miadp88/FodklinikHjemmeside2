@@ -173,6 +173,10 @@ nav.navbar .searchBox {
   text-shadow: none;
 }
 
+.button:hover {
+  color: black;
+}
+
 @media only screen and (max-width: 767px) {
   .button {
     right: 0;
