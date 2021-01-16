@@ -50,12 +50,11 @@ div.card {
   background: white;
   display: inline-block;
   margin: 8px;
-  max-width: 300px;
   perspective: 1000;
   position: relative;
   text-align: left;
   transition: all 0.3s 0s ease-in;
-  width: 300px;
+  width: 100%;
   z-index: 1;
   &.show{
     .card-flap{
@@ -66,18 +65,11 @@ div.card {
 
   }
   @media only screen and (max-width: 789px){
-    max-width: unset;
-    width: 100%;
     margin: 8px 0;
-    .card__image-holder{
-      img{
-       max-width: 100%;
-      }
-    }
   }
 
   img {
-    max-width: 300px;
+    max-width: 100%;
   }
   
   .card__image-holder {
@@ -156,6 +148,7 @@ div.card {
     width: 100%;
     transform-origin: top;
     transform: rotateX(-90deg);
+
   }
   div.flap1 {
     transition: all 0.3s 0.3s ease-out;
@@ -189,7 +182,7 @@ div.card.show {
 
   div.card-title {
     a.toggle-info {
-      background: rgb(155, 152, 152) !important;
+      background: rgb(255, 255, 255) !important;
       span {
         top: 15px;
       }
@@ -202,7 +195,7 @@ div.card.show {
     }
   }
   div.card-flap {
-    background: whitesmoke;
+    background: rgb(255, 255, 255);
     transform: rotateX(0deg);
   }
   div.flap1 {
@@ -223,7 +216,7 @@ div.card.show {
 .ProduktSection, .galleriSection, .contactSection{
   background: rgb(255,255,255);
   background: linear-gradient(90deg, rgba(255,255,255,0) 0%, rgba(221,198,166,0.39) 100%);
-  margin: 30px;
+  margin: 30px 0 30px 30px;
   padding: 20px;
   justify-content: center;
   @media only screen and (max-width:900px) {

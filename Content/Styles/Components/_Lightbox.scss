@@ -102,15 +102,16 @@
     padding: 2px 16px;
     color: white;
   }
-  
-  img.demo {
-    opacity: 0.6;
-  }
-  
-  .active,
-  .demo:hover {
+  .lightbox-thumbnails{
+    img.demo {
+      max-width: 100%;
+      opacity: 0.6;
+      &:hover {
     opacity: 1;
   }
+    }
+  }
+
   
   img.hover-shadow {
     transition: 0.3s;
